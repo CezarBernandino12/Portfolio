@@ -264,6 +264,28 @@
       font-family: var(--mono); font-size: 10.5px; padding: 3px 9px; border-radius: 4px;
       border: 1px solid rgba(15,140,130,0.2); color: var(--teal-deep); background: var(--bg);
     }
+    .record-contribution {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--bg);
+    }
+    .contribution-label {
+      font-family: var(--mono);
+      font-size: 10.5px;
+      color: var(--teal);
+      letter-spacing: 0.3px;
+      text-transform: uppercase;
+      display: inline-block;
+      margin-bottom: 4px;
+    }
+    .record-contribution p {
+      font-size: 12.8px;
+      color: var(--text2);
+      line-height: 1.7;
+      margin: 0;
+    }
     .record-links { display: flex; flex-direction: column; gap: 8px; }
     .project-link {
       font-size: 12px; color: var(--text2); text-decoration: none;
